@@ -1,23 +1,21 @@
 # Python-Keyboard-Event-Monitoring-Lab
 Python Keyboard Event Monitoring Lab is an educational project that demonstrates keyboard event capture and logging in a controlled environment. Built with Python, it explores event-driven programming, endpoint monitoring concepts, and cybersecurity awareness while emphasizing ethical use, security implications, and defensive learning.
 
-## Features
-- Logs keystrokes with timestamps to a file
-- Automatically opens a live viewer terminal on startup
-- Press ESC to stop
+What it is:
+A real-time keystroke logger built as a Python learning project. Demonstrates event-driven programming, file I/O, subprocess management, and system-level input handling.
 
-## Tech Used
-- Python 3 in vscode
-- pynput
+✨ Features
+• Logs keystrokes with timestamps to a .txt file
+• Auto-opens a live viewer terminal on startup
+• Handles both character and special keys
+• Press ESC to stop cleanly
 
-## Setup
-1. Install dependencies:
-   pip install pynput
+🛠 Tech used
+Python 3 · pynput · subprocess · datetime
 
-2. Run the script:
-   python keylogger.py
+⚙️ Setup
+pip install pynput
+python keylogger.py
 
-## Disclaimer
-This project is for educational purposes only.
-Only run on your own machine.
-
+⚠️ Disclaimer
+For educational purposes only. Run only on your own machine.
